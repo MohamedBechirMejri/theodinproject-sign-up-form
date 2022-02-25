@@ -352,14 +352,32 @@ template {
 
 /* normalizecss code above */
 
+@font-face {
+  font-family: "Krabby Patty";
+  src: url("./assets/fonts/krabby-patty.ttf");
+}
+
+body {
+  font-family: "Krabby Patty", -apple-system, BlinkMacSystemFont, avenir next,
+    avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial,
+    sans-serif;
+}
+
 .container {
   height: 100vh;
   width: 100vw;
+  display: flex;
 }
 
 .bg {
   background-image: url("./assets/images/bg.jpg");
   height: 100vh;
+  /* width: min(450px, 45vh); */
   background-size: cover;
   background-position: center;
+  flex-grow: 1;
+}
+
+.form {
+  flex-grow: 1;
 }
