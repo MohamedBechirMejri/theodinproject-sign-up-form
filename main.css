@@ -361,6 +361,8 @@ body {
   font-family: "Krabby Patty", -apple-system, BlinkMacSystemFont, avenir next,
     avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial,
     sans-serif;
+  color: #182033;
+  text-shadow: 0 0 2px #b1414d;
 }
 
 .container {
@@ -395,14 +397,59 @@ form {
   justify-content: center;
   gap: 0.5rem;
 }
-label {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
 section {
   display: flex;
   align-items: space-between;
   justify-content: center;
   gap: 0.5rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+input {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  font-family: inherit;
+  font-weight: bold;
+  color: #333;
+  background: #fff;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+input:focus {
+  border-color: #333;
+}
+input:hover {
+  border-color: #333;
+}
+
+input:active {
+  border-color: #333;
+}
+
+button {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  font-family: inherit;
+  font-weight: bold;
+  color: #333;
+  background: #fff;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+button:hover {
+  background: #333;
+  color: #fff;
+}
+
+button:active {
+  transform: scale(0.9);
 }
