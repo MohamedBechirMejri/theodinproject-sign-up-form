@@ -372,7 +372,7 @@ body {
 .bg {
   background-image: url("./assets/images/bg.jpg");
   height: 100vh;
-  /* width: min(450px, 45vh); */
+  width: max(200px, 30vh);
   background-size: cover;
   background-position: center;
   flex-grow: 1;
@@ -380,4 +380,29 @@ body {
 
 .form {
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(https://wallpaperaccess.com/full/791225.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+section {
+  display: flex;
+  align-items: space-between;
+  justify-content: center;
+  gap: 0.5rem;
 }
