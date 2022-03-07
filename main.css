@@ -453,3 +453,7 @@ button:hover {
 button:active {
   transform: scale(0.9);
 }
+a {
+  text-decoration: none;
+  color: #ffc800;
+}
