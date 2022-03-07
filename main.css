@@ -363,6 +363,7 @@ body {
     sans-serif;
   color: #182033;
   text-shadow: 0 0 2px #b1414d;
+  text-align: center;
 }
 
 .container {
@@ -456,4 +457,19 @@ button:active {
 a {
   text-decoration: none;
   color: #ffc800;
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: underline;
+}
+em {
+  font-style: italic;
+  font-size: 0.8rem;
+  text-decoration: underline;
+}
+h1 {
+}
+span {
+  color: red;
+  text-decoration: underline;
 }
